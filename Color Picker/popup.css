@@ -1,0 +1,71 @@
+body {
+    background-image: url("/images/color picker background-1.jpg");
+    height: 160px;
+    width: 300px;
+}
+.wrapper {
+    width: 235px;
+    height: 140px;
+    text-align: center;
+    background-color: rgb(237, 247, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+.changeColorBtn {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: rgb(33, 129, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.changeColorBtn:hover{
+    box-shadow: 0 0 3px 2px rgb(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.changeColorBtn:active{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: Roboto;
+}
+.welcome-css{
+    font-size: large;
+    font-family: Roboto;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.help-css{
+    font-size: 9px;
+    font-family: Roboto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
